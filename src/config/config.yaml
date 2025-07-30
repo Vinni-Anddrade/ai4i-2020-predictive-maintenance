@@ -1,0 +1,10 @@
+DATABASE_PATH: "C:/development/equipament-maintenance-prediction/data/equipament-cycles.csv"
+
+COLUMNS:
+  - Type
+  - Air temperature [K]
+  - Process temperature [K]
+  - Rotational speed [rpm]
+  - Torque [Nm]
+  - Tool wear [min]
+  - Machine failure
