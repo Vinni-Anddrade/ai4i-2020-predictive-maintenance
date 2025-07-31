@@ -1,0 +1,6 @@
+best_params:
+  max_depth: '6'
+  n_estimators: '200'
+data_type: Scaled data
+model_name: XGBoostClassifier
+model_uri: runs:/e8f721a9ecd74518ad7a7b8f4e4b4242/XGBoostClassifier

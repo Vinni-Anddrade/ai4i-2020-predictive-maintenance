@@ -7,7 +7,7 @@ import pickle
 
 
 TRACKING_URI = (
-    "file:///C:/development/equipament-maintenance-prediction/notebooks/mlruns"
+    "file:///C:/development/ai4i-2020-predictive-maintenance/notebooks/mlruns"
 )
 
 

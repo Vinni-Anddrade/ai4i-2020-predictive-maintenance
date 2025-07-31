@@ -1,7 +1,7 @@
 from src.utils.common import get_best_model_from_artifacts, get_artifact
 
 
-class PredictionModelManager:
+class ModelManager:
     def __init__(self):
         self.experiment_name = "testing_experiment"
         self.get_best_model()
@@ -12,3 +12,5 @@ class PredictionModelManager:
         )
         self.model = get_artifact(run_id, model_name)
         self.data_type = data_type
+        self.run_id = run_id
+        self.model_name = model_name
